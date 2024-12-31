@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prosto+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+body {
+    background: #151515;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+.header__nav {
+    background: #282828;
+    padding: 6px 0;
+}
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left, .header__links ul, .header__list {
+    display: flex;
+    align-items: center;
+}
+.header__list a, .footer__nav a {
+    font-size: 20px;
+    color: #ffff;
+}
+.header__left, .header__left ul{
+    gap: 30px;
+}
+.header__links ul {
+    gap: 25px;
+}
+.header__content {
+    background: url(../images/header-bg.png) center / cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 42px;
+}
+.header__content a {
+    padding: 13px 14px;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #171718;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 11px;
+}
+h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 100px;
+    font-family: "Prosto One"
+}
+.airpods {
+    display: flex;
+    flex-wrap: wrap;
+}
+.airpods__white, .airpods__left-black {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.airpods__left-black {
+    margin-bottom: 50px;
+}
+.airpods__white p, .airpods__left-black p, .last__headphone-center p {
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.last__headphone-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.second__right {
+    text-align: left;
+}
+.last__headphone-center p {
+    max-width: 333px;
+}
+.line {
+    width: 61px;
+}
+.card {
+    background: #FFFFFF;
+    max-width: 255px;
+    padding: 15px 58px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card p {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card a {
+    padding: 7px 57px;
+    color: #FFFFFF;
+    background: #151515;
+}
+.card__iphone {
+    display: flex;
+    gap: 30px;
+    margin-top: 79px;
+}
+.footer {
+    background: #282828;
+    padding: 81px 245px;
+    margin-top: 55px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__pay {
+    display: flex;
+    gap: 29px;
+}
+.footer__nav ul {
+    display: flex;
+    gap: 30px;
+}
